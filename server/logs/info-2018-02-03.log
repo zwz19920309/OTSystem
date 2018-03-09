@@ -1,0 +1,923 @@
+[2018-02-03T11:12:34.734] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 3
+response status: 200
+response body: 
+{"code":20,"msg":"token超时，请重新登录"}
+*************** response log end ***************
+
+[2018-02-03T11:12:39.767] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 3201
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzYzMTE1NiwiaWF0IjoxNTE3NjI3NTU2fQ.I7X81azkcyG8-lepDbf8mJs9oPLUnqbDyaIxMB_xuJU"}}
+*************** response log end ***************
+
+[2018-02-03T11:13:13.880] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 33931
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T11:16:57.322] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 200123
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T11:22:17.597] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 4869
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzYzMTczMywiaWF0IjoxNTE3NjI4MTMzfQ.h4vjHV1vaKUymqDKyfBXPI4KpbQSR5NwxN_lkgn1Q10"}}
+*************** response log end ***************
+
+[2018-02-03T11:22:18.139] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 88
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T11:22:40.031] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 76
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T11:31:03.662] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 14
+response status: 200
+response body: 
+{"code":20,"msg":"token超时，请重新登录"}
+*************** response log end ***************
+
+[2018-02-03T11:31:09.187] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 3648
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzYzMjI2NSwiaWF0IjoxNTE3NjI4NjY1fQ.puOcdpjxKkR4QQRa4vp0v5PcNJAL6rZWDGkJmqOS_kI"}}
+*************** response log end ***************
+
+[2018-02-03T11:31:09.600] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 109
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T11:31:13.737] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 57
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T11:31:14.637] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-03"}
+response time: 26
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[],"total":0}}
+*************** response log end ***************
+
+[2018-02-03T11:31:16.069] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 50
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T11:33:07.426] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-03"}
+response time: 62
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[],"total":0}}
+*************** response log end ***************
+
+[2018-02-03T11:33:08.360] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 58
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T11:33:09.269] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 66
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T11:33:09.752] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 38
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T15:06:18.032] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/logout
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 3203
+response status: 200
+response body: 
+{"code":1,"msg":"退出成功","data":null}
+*************** response log end ***************
+
+[2018-02-03T15:06:23.416] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong2","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 66
+response status: 200
+response body: 
+{"code":-1,"msg":"帐号或密码错误，请重试!"}
+*************** response log end ***************
+
+[2018-02-03T15:06:30.846] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong2","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 25
+response status: 200
+response body: 
+{"code":-1,"msg":"帐号或密码错误，请重试!"}
+*************** response log end ***************
+
+[2018-02-03T15:37:16.145] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"page":1,"pageSize":5,"month":""}
+response time: 5
+response status: 200
+response body: 
+{"code":20,"msg":"token超时，请重新登录"}
+*************** response log end ***************
+
+[2018-02-03T15:37:18.635] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 634
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzY0NzAzOCwiaWF0IjoxNTE3NjQzNDM4fQ.ihQwoWoiFBaKRfnlXY9Ab4RWgUGNkibYnXgcFJJqPPM"}}
+*************** response log end ***************
+
+[2018-02-03T15:37:18.939] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 68
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T15:47:51.142] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"page":1,"pageSize":5,"month":""}
+response time: 4
+response status: 200
+response body: 
+{"code":20,"msg":"token超时，请重新登录"}
+*************** response log end ***************
+
+[2018-02-03T15:47:56.761] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 288
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzY0NzY3NiwiaWF0IjoxNTE3NjQ0MDc2fQ.flLWlfC6yoGJE4vyi5Cg-srt1ucji4Pwk4wn_4H5nmo"}}
+*************** response log end ***************
+
+[2018-02-03T15:47:57.065] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 47
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T15:48:10.041] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-03"}
+response time: 39
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[],"total":0}}
+*************** response log end ***************
+
+[2018-02-03T15:48:11.728] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/logout
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{"code":1,"msg":"退出成功","data":null}
+*************** response log end ***************
+
+[2018-02-03T15:48:21.440] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong2","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 65
+response status: 200
+response body: 
+{"code":-1,"msg":"帐号或密码错误，请重试!"}
+*************** response log end ***************
+
+[2018-02-03T15:51:11.706] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong2","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 85
+response status: 200
+response body: 
+{"code":-1,"msg":"帐号或密码错误，请重试!"}
+*************** response log end ***************
+
+[2018-02-03T15:51:13.241] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong2","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 89
+response status: 200
+response body: 
+{"code":-1,"msg":"帐号或密码错误，请重试!"}
+*************** response log end ***************
+
+[2018-02-03T15:51:15.619] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 79
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzY0Nzg3NSwiaWF0IjoxNTE3NjQ0Mjc1fQ.c150M80yGev80KzH9JHUWDolm66N0L5ExSLUQeYa5FA"}}
+*************** response log end ***************
+
+[2018-02-03T15:51:15.962] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 57
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T15:51:18.904] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/logout
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{"code":1,"msg":"退出成功","data":null}
+*************** response log end ***************
+
+[2018-02-03T15:51:42.271] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 10
+response status: 200
+response body: 
+{"code":20,"msg":"token超时，请重新登录"}
+*************** response log end ***************
+
+[2018-02-03T15:52:04.920] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 138
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzY0NzkyNCwiaWF0IjoxNTE3NjQ0MzI0fQ.78lsD-VhVcBALCvlfmyJjVJT4GDlLwlMkJIRa412yu0"}}
+*************** response log end ***************
+
+[2018-02-03T15:52:05.245] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 53
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T15:52:07.123] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/logout
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 2
+response status: 200
+response body: 
+{"code":1,"msg":"退出成功","data":null}
+*************** response log end ***************
+
+[2018-02-03T16:14:34.100] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 127
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzY0OTI3NCwiaWF0IjoxNTE3NjQ1Njc0fQ.132e1SD55ko7-kiVDfZdzRpk5h3H2z0gPxhR3fiYZKI"}}
+*************** response log end ***************
+
+[2018-02-03T16:14:34.378] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 57
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T16:15:41.247] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-03"}
+response time: 57
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[],"total":0}}
+*************** response log end ***************
+
+[2018-02-03T16:15:43.481] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 56
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T16:15:44.739] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 139
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T16:15:45.333] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 79
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T16:15:45.821] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-03"}
+response time: 42
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[],"total":0}}
+*************** response log end ***************
+
+[2018-02-03T16:15:47.402] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 43
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T16:24:26.118] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/logout
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{"code":1,"msg":"退出成功","data":null}
+*************** response log end ***************
+
+[2018-02-03T17:33:05.413] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 236
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzY1Mzk4NSwiaWF0IjoxNTE3NjUwMzg1fQ.BPMqKxSQNo5sLmeD9PzU0hKKCstHopXsYOYcZTX4abg"}}
+*************** response log end ***************
+
+[2018-02-03T17:33:05.989] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 89
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T17:33:08.156] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 167
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:33:51.507] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":[null,null]}
+response time: 25428
+response status: 200
+response body: 
+{"code":-3,"msg":"ids is not iterable"}
+*************** response log end ***************
+
+[2018-02-03T17:37:20.102] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 235
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:37:23.497] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":[]}
+response time: 6
+response status: 200
+response body: 
+{"code":-3,"msg":"ids is not iterable"}
+*************** response log end ***************
+
+[2018-02-03T17:38:21.005] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 66
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:38:23.714] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 34
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:38:59.609] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 190
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:39:38.431] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":["17","30"]}
+response time: 6
+response status: 200
+response body: 
+{"code":-3,"msg":"ids is not iterable"}
+*************** response log end ***************
+
+[2018-02-03T17:40:15.350] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 85
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:40:41.816] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 58
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:42:21.857] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 244
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzY1NDU0MSwiaWF0IjoxNTE3NjUwOTQxfQ.7dc3PNcWhiTzrNGBUfmDPZV3BrJXRbTiA1tkqOp1Tzg"}}
+*************** response log end ***************
+
+[2018-02-03T17:42:22.334] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 75
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-03T17:42:23.800] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 45
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":2,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:42:55.934] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":["17","30"]}
+response time: 26287
+response status: 200
+response body: 
+{"code":-3,"msg":"抱歉！您不是当前审核者"}
+*************** response log end ***************
+
+[2018-02-03T17:46:03.813] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":["17","30"],"account":"zhaizhenyong"}
+response time: 21267
+response status: 200
+response body: 
+{"code":-3,"msg":"抱歉！您不是当前审核者"}
+*************** response log end ***************
+
+[2018-02-03T17:47:13.541] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":["17","30"],"account":"zhaizhenyong"}
+response time: 45514
+response status: 200
+response body: 
+{"code":-3,"msg":"抱歉！您不是当前审核者"}
+*************** response log end ***************
+
+[2018-02-03T17:49:27.759] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/changeExaminaStatus
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"17","deptId":"14","status":0,"ctrl":"pass","account":"zhaizhenyong"}
+response time: 44687
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":[1]}
+*************** response log end ***************
+
+[2018-02-03T17:49:27.868] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 66
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":1,"rows":[{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-03T17:49:46.217] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":[],"account":"zhaizhenyong"}
+response time: 14373
+response status: 200
+response body: 
+[]
+*************** response log end ***************
+
+[2018-02-03T17:50:33.690] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":["30"],"account":"zhaizhenyong"}
+response time: 36248
+response status: 200
+response body: 
+{"code":-3,"msg":"抱歉！您不是当前审核者"}
+*************** response log end ***************
+
+[2018-02-03T17:51:49.110] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":[],"account":"zhaizhenyong"}
+response time: 2401
+response status: 200
+response body: 
+[]
+*************** response log end ***************
+
+[2018-02-03T17:58:52.187] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"ids":["30"],"account":"zhaizhenyong"}
+response time: 14528
+response status: 200
+response body: 
+[[1]]
+*************** response log end ***************
+

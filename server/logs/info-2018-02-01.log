@@ -1,0 +1,715 @@
+[2018-02-01T16:42:29.509] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 301
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"前端-翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzQ3ODE0OSwiaWF0IjoxNTE3NDc0NTQ5fQ.s2qp1V3A1ShDXxl8CS1jLubH7rezZn4JJREeM_KkFoA"}}
+*************** response log end ***************
+
+[2018-02-01T16:42:30.041] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 117
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T16:42:36.037] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 48
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":5,"rows":[{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"13","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试5","operator":"","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T06:55:39.000Z","updatedAt":"2018-01-19T06:57:29.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}},{"startTime":"2018-01-18 19:30:00","endTime":"2018-01-18 20:30:00","id":"8","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试2","operator":"zhongwenzhi","status":3,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-18T11:22:24.000Z","updatedAt":"2018-01-19T06:14:41.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T08:44:36.000Z","updatedAt":"2018-01-19T07:40:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T16:43:05.827] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 76
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":4,"rows":[{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 20:30:00","id":"14","name":"前端-钟文治","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"请假测试6","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"做完任务先","remark3":null,"createdAt":"2018-01-19T06:59:47.000Z","updatedAt":"2018-01-19T07:00:44.000Z","deptId":"14","userId":"50"},{"startTime":"2018-01-19 19:30:00","endTime":"2018-01-19 22:30:00","id":"17","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":3,"holidays":2,"reason":"加班搞OT","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-19T07:32:09.000Z","updatedAt":"2018-01-19T07:32:09.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-22 19:30:00","endTime":"2018-01-22 20:30:00","id":"30","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"测试11","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-22T01:19:10.000Z","updatedAt":"2018-01-22T01:19:10.000Z","deptId":"14","userId":"47"},{"startTime":"2018-01-30 19:30:00","endTime":"2018-01-30 20:30:00","id":"31","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"1111","operator":"zhaizhenyong","status":11,"remark":null,"remark1":null,"remark2":"1233","remark3":null,"createdAt":"2018-01-30T07:31:42.000Z","updatedAt":"2018-01-30T07:32:06.000Z","deptId":"14","userId":"47"}]}}
+*************** response log end ***************
+
+[2018-02-01T16:43:48.114] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 51
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[],"total":0}}
+*************** response log end ***************
+
+[2018-02-01T16:43:54.201] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 24
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[],"total":0}}
+*************** response log end ***************
+
+[2018-02-01T16:44:16.726] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 113
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T16:46:19.909] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 62
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":2,"rows":[{"startTime":"2018-01-26 08:30:00","endTime":"2018-01-26 09:30:00","id":"64","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"iOS信鸽推送bug修复","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-25T13:16:31.000Z","updatedAt":"2018-01-26T01:39:40.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}},{"startTime":"2018-01-25 08:30:00","endTime":"2018-01-25 12:30:00","id":"35","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":4,"holidays":0.5,"reason":"信鸽推送联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-24T10:15:47.000Z","updatedAt":"2018-01-25T01:43:44.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T16:46:24.409] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 39
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":1,"rows":[{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253"}]}}
+*************** response log end ***************
+
+[2018-02-01T16:46:35.369] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 50
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":2,"rows":[{"startTime":"2018-01-26 08:30:00","endTime":"2018-01-26 09:30:00","id":"64","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"iOS信鸽推送bug修复","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-25T13:16:31.000Z","updatedAt":"2018-01-26T01:39:40.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}},{"startTime":"2018-01-25 08:30:00","endTime":"2018-01-25 12:30:00","id":"35","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":4,"holidays":0.5,"reason":"信鸽推送联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-24T10:15:47.000Z","updatedAt":"2018-01-25T01:43:44.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T16:46:38.769] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":"2017-12-31T16:00:00.000Z"}
+response time: 89
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":2,"rows":[{"startTime":"2018-01-26 08:30:00","endTime":"2018-01-26 09:30:00","id":"64","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"iOS信鸽推送bug修复","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-25T13:16:31.000Z","updatedAt":"2018-01-26T01:39:40.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}},{"startTime":"2018-01-25 08:30:00","endTime":"2018-01-25 12:30:00","id":"35","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":4,"holidays":0.5,"reason":"信鸽推送联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-24T10:15:47.000Z","updatedAt":"2018-01-25T01:43:44.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T16:46:47.287] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 49
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":1,"rows":[{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253"}]}}
+*************** response log end ***************
+
+[2018-02-01T16:48:53.953] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 116592
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T16:49:05.091] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 43
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":1,"rows":[{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253"}]}}
+*************** response log end ***************
+
+[2018-02-01T16:53:49.686] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 283740
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T16:53:53.930] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 180
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"前端-翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzQ3ODgzMywiaWF0IjoxNTE3NDc1MjMzfQ.34bBhJ0wpIJyn0_mzIWtbxk-uCzazUtk4JGVwzeksOE"}}
+*************** response log end ***************
+
+[2018-02-01T16:53:54.220] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 41
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":2,"rows":[{"startTime":"2018-01-26 08:30:00","endTime":"2018-01-26 09:30:00","id":"64","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"iOS信鸽推送bug修复","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-25T13:16:31.000Z","updatedAt":"2018-01-26T01:39:40.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}},{"startTime":"2018-01-25 08:30:00","endTime":"2018-01-25 12:30:00","id":"35","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":4,"holidays":0.5,"reason":"信鸽推送联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-24T10:15:47.000Z","updatedAt":"2018-01-25T01:43:44.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T16:54:12.013] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 15159
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T16:54:47.589] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 67
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:04:52.939] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 45
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:18:31.077] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 82
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:18:35.379] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 51
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:18:43.228] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 64
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:21:14.905] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 70
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:21:19.162] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 80
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:21:54.159] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 76
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:21:58.018] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 50
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":1,"rows":[{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253"}]}}
+*************** response log end ***************
+
+[2018-02-01T17:21:58.898] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 35
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:22:00.138] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 49
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":2,"rows":[{"startTime":"2018-01-26 08:30:00","endTime":"2018-01-26 09:30:00","id":"64","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"iOS信鸽推送bug修复","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-25T13:16:31.000Z","updatedAt":"2018-01-26T01:39:40.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}},{"startTime":"2018-01-25 08:30:00","endTime":"2018-01-25 12:30:00","id":"35","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":4,"holidays":0.5,"reason":"信鸽推送联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-24T10:15:47.000Z","updatedAt":"2018-01-25T01:43:44.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T17:22:18.085] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 46
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:22:38.664] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 53
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:23:07.715] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 99
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:30:41.732] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 64
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:31:13.667] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 92
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:34:45.170] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 92
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:34:49.306] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 36
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:36:07.196] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 77
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:36:23.696] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 63
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:36:44.437] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 90
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:46:00.408] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 49
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:46:05.468] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 31
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:53:10.259] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 52
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:54:47.633] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 46
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:56:52.530] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 102
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T17:56:58.299] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 29
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-02 08:30:00","endTime":"2018-02-02 09:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-02-01 08:30:00","endTime":"2018-02-01 11:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T04:57:28.004] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 67
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-01 19:30:00","endTime":"2018-02-01 20:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-01-31 19:30:00","endTime":"2018-01-31 22:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T04:57:36.541] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-01"}
+response time: 200
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-01 19:30:00","endTime":"2018-02-01 20:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-01-31 19:30:00","endTime":"2018-01-31 22:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":2}}
+*************** response log end ***************
+
+[2018-02-01T21:11:07.898] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 12
+response status: 200
+response body: 
+{"code":20,"msg":"token超时，请重新登录"}
+*************** response log end ***************
+
+[2018-02-01T21:11:10.073] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 201
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"前端-翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzU0MTA3MCwiaWF0IjoxNTE3NTM3NDcwfQ.4csulf653z6oNcVyI28duiG6YJ-4FSEDJY6xoIf-zvk"}}
+*************** response log end ***************
+
+[2018-02-01T21:11:10.316] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 77
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":2,"rows":[{"startTime":"2018-01-25 19:30:00","endTime":"2018-01-25 20:30:00","id":"64","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"iOS信鸽推送bug修复","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-25T13:16:31.000Z","updatedAt":"2018-01-26T01:39:40.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}},{"startTime":"2018-01-24 19:30:00","endTime":"2018-01-24 23:30:00","id":"35","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":4,"holidays":0.5,"reason":"信鸽推送联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-24T10:15:47.000Z","updatedAt":"2018-01-25T01:43:44.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T21:51:53.453] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/fuzzySearch
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"yangteng"}
+response time: 82
+response status: 200
+response body: 
+{"code":1,"msg":"查询成功","data":[{"id":87,"dept":1,"account":"yangteng","password":"87beb5c5bf55aa7772ddfcbb7203bd49","realname":"杨腾"}]}
+*************** response log end ***************
+
+[2018-02-01T22:16:04.118] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"account":"zhaizhenyong","password":"c776696d9a17bec8a940a795d78c6388"}
+response time: 127
+response status: 200
+response body: 
+{"code":1,"msg":"登录成功","data":{"id":47,"account":"zhaizhenyong","realname":"前端-翟镇勇","dept":14,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJ6aGFpemhlbnlvbmciLCJwYXNzd29yZCI6ImM3NzY2OTZkOWExN2JlYzhhOTQwYTc5NWQ3OGM2Mzg4In0sImV4cCI6MTUxNzU0NDk2NCwiaWF0IjoxNTE3NTQxMzY0fQ.H_37phJ9WUXpEyxw3X8vkCjWrQ4e7d39PokG-1G65l8"}}
+*************** response log end ***************
+
+[2018-02-01T22:16:04.697] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /info/getPersonalInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":47,"page":1,"pageSize":5,"month":""}
+response time: 57
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"count":2,"rows":[{"startTime":"2018-01-25 19:30:00","endTime":"2018-01-25 20:30:00","id":"64","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":1,"holidays":0,"reason":"iOS信鸽推送bug修复","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-25T13:16:31.000Z","updatedAt":"2018-01-26T01:39:40.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}},{"startTime":"2018-01-24 19:30:00","endTime":"2018-01-24 23:30:00","id":"35","name":"前端-翟镇勇","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":4,"holidays":0.5,"reason":"信鸽推送联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-01-24T10:15:47.000Z","updatedAt":"2018-01-25T01:43:44.000Z","deptId":"14","userId":"47","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}]}}
+*************** response log end ***************
+
+[2018-02-01T22:16:07.123] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /examina/getExaminaList
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"userId":47,"page":1,"size":10,"account":"zhaizhenyong"}
+response time: 43
+response status: 200
+response body: 
+{"code":1,"msg":"SUCCESS","data":{"count":1,"rows":[{"startTime":"2018-01-31 19:30:00","endTime":"2018-01-31 22:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253"}]}}
+*************** response log end ***************
+
+[2018-02-01T22:16:07.589] [INFO] info - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /overtimen/findDataByPage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"limit":10,"offset":0,"datePeriod":"2018-02-02"}
+response time: 36
+response status: 200
+response body: 
+{"code":1,"msg":"获取数据成功","data":{"list":[{"startTime":"2018-02-01 19:30:00","endTime":"2018-02-01 22:00:00","id":"118","name":"EDI-谢永帧","deptName":"研发中心EDI开发部","leaderName":"EDI-范图强","days":2,"holidays":0,"reason":"安心支付跟承保确认接口联调","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-02T01:14:11.000Z","updatedAt":"2018-02-02T01:44:09.000Z","deptId":"16","userId":"23","t_dept":{"id":"16","name":"EDI开发部","parent":5,"grade":2,"leader":"fantuqiang","leaderName":"EDI-范图强","checker":"chenbiwu","checkerName":"研发副总-陈必武","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T02:26:15.000Z"}},{"startTime":"2018-02-01 19:30:00","endTime":"2018-02-01 22:00:00","id":"117","name":"EDI-范图强","deptName":"研发中心EDI开发部","leaderName":"EDI-范图强","days":2,"holidays":0,"reason":"安心支付测试","operator":"yangteng","status":1,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-02T01:08:47.000Z","updatedAt":"2018-02-02T01:44:06.000Z","deptId":"16","userId":"21","t_dept":{"id":"16","name":"EDI开发部","parent":5,"grade":2,"leader":"fantuqiang","leaderName":"EDI-范图强","checker":"chenbiwu","checkerName":"研发副总-陈必武","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T02:26:15.000Z"}},{"startTime":"2018-02-01 19:30:00","endTime":"2018-02-01 22:00:00","id":"116","name":"测试-郑嘉敏","deptName":"研发中心测试部","leaderName":"研发副总-李义民","days":2,"holidays":1,"reason":"安心edi以及安心一次支付测试","operator":"liyimin","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T14:02:50.000Z","updatedAt":"2018-02-01T14:02:50.000Z","deptId":"18","userId":"67","t_dept":{"id":"18","name":"测试部","parent":5,"grade":2,"leader":"liyimin","leaderName":"研发副总-李义民","checker":"liyimin","checkerName":"研发副总-李义民","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T02:26:15.000Z"}},{"startTime":"2018-02-01 19:30:00","endTime":"2018-02-01 20:30:00","id":"112","name":"张嘉欣","deptName":"人事行政部人力资源处","leaderName":"人事行政-刘妹","days":1,"holidays":2,"reason":"测试111","operator":"liumei","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T03:33:26.000Z","updatedAt":"2018-02-01T03:33:26.000Z","deptId":"72","userId":"102","t_dept":{"id":"72","name":"人力资源处","parent":6,"grade":2,"leader":"liumei","leaderName":"人事行政-刘妹","checker":"liumei","checkerName":"人事行政-刘妹","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:34.000Z","updatedAt":"2018-01-23T02:05:36.000Z"}},{"startTime":"2018-01-31 19:30:00","endTime":"2018-01-31 22:00:00","id":"111","name":"前端-曾嘉宝","deptName":"研发中心前端开发部","leaderName":"前端-翟镇勇","days":2,"holidays":0.5,"reason":"c站发布金牌代理人活动","operator":"zhaizhenyong","status":0,"remark":null,"remark1":null,"remark2":null,"remark3":null,"createdAt":"2018-02-01T01:42:18.000Z","updatedAt":"2018-02-01T01:42:18.000Z","deptId":"14","userId":"253","t_dept":{"id":"14","name":"前端开发部","parent":5,"grade":2,"leader":"zhaizhenyong","leaderName":"前端-翟镇勇","checker":"zhaizhenyong","checkerName":"前端-翟镇勇","checker2":null,"remark":null,"createdAt":"2018-01-18T07:35:33.000Z","updatedAt":"2018-01-23T08:10:36.000Z"}}],"total":5}}
+*************** response log end ***************
+

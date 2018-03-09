@@ -1,0 +1,52 @@
+[2018-02-05T14:21:11.873] [ERROR] error - 
+[2018-02-05T14:21:11.874] [ERROR] error -   SyntaxError: Unexpected token ' in JSON at position 1
+      at JSON.parse (<anonymous>)
+      at parse (/Users/cninsure/workspace-zzb/NodeJS/OT-Application/node_modules/co-body/lib/json.js:62:17)
+      at /Users/cninsure/workspace-zzb/NodeJS/OT-Application/node_modules/co-body/lib/json.js:45:22
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-02-05T14:21:11.874] [ERROR] error - 
+[2018-02-05T14:28:04.347] [ERROR] error - 
+[2018-02-05T14:28:04.348] [ERROR] error -   SyntaxError: Unexpected token ' in JSON at position 1
+      at JSON.parse (<anonymous>)
+      at parse (/Users/cninsure/workspace-zzb/NodeJS/OT-Application/node_modules/co-body/lib/json.js:62:17)
+      at /Users/cninsure/workspace-zzb/NodeJS/OT-Application/node_modules/co-body/lib/json.js:45:22
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-02-05T14:28:04.348] [ERROR] error - 
+[2018-02-05T15:25:12.269] [ERROR] error - (node:57448) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: promise.resolve is not a function
+[2018-02-05T15:25:12.269] [ERROR] error - (node:57448) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2018-02-05T15:25:15.409] [ERROR] error - (node:57448) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 3): TypeError: promise.resolve is not a function
+[2018-02-05T15:25:52.654] [ERROR] error - (node:57467) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ReferenceError: resolve is not defined
+[2018-02-05T15:25:52.655] [ERROR] error - (node:57467) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2018-02-05T15:25:55.949] [ERROR] error - (node:57467) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): ReferenceError: resolve is not defined
+[2018-02-05T15:30:54.161] [ERROR] error - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:10.68.15.131
+request body: 
+{"ids":[33,12],"account":"zhaizhenyong"}
+response time: 9649
+err name: Error
+err message: 抱歉！无该记录！id:12
+err stack: Error: 抱歉！无该记录！id:12
+    at passExamina (/Users/cninsure/workspace-zzb/NodeJS/OT-Application/services/examina-service.js:58:11)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-02-05T15:31:50.715] [ERROR] error - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /examina/passExaminaList
+request client ip:  ::ffff:10.68.15.131
+request body: 
+{"ids":[33,12],"account":"zhaizhenyong"}
+response time: 7437
+err name: Error
+err message: 抱歉！无该记录！id:12
+err stack: Error: 抱歉！无该记录！id:12
+    at passExamina (/Users/cninsure/workspace-zzb/NodeJS/OT-Application/services/examina-service.js:58:11)
+    at <anonymous>
+*************** error log end ***************
+

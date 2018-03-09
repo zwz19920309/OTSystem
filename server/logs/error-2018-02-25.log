@@ -1,0 +1,19 @@
+[2018-02-25T01:48:43.084] [ERROR] error - [ioredis] Unhandled error event: Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1050:11)
+    at TCP.onread (net.js:582:26)
+[2018-02-25T03:59:09.256] [ERROR] error - [ioredis] Unhandled error event: Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1050:11)
+    at TCP.onread (net.js:582:26)
+[2018-02-25T06:09:35.781] [ERROR] error - [ioredis] Unhandled error event: Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1050:11)
+    at TCP.onread (net.js:582:26)
+[2018-02-25T08:20:02.654] [ERROR] error - [ioredis] Unhandled error event: Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1050:11)
+    at TCP.onread (net.js:582:26)
+[2018-02-25T09:01:29.651] [ERROR] error - [ioredis] Unhandled error event: Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1050:11)
+    at TCP.onread (net.js:582:26)
+[2018-02-25T14:10:02.984] [ERROR] error - [ioredis] Unhandled error event: Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1050:11)
+    at TCP.onread (net.js:582:26)
+[2018-02-25T17:34:50.614] [ERROR] error - (node:6962) DeprecationWarning: "--compilers" will be removed in a future version of Mocha; see https://git.io/vdcSr for more info
